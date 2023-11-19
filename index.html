@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <title>Abu Bakar</title>
+</head>
+
+<body>
+    <!-- **************** HEADER CONTENT START **************** -->
+    <header id="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="nav__content">
+                    <div class="nav__left">
+                        <a class="nav__logo" href="#hero">Abu Bakar</a>
+                    </div>
+                    <div class="nav__right">
+                        <ul class="nav__menu">
+                            <li class="nav__item">
+                                <a class="nav__link active__link" href="#hero">home</a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link" href="#services">services</a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link" href="#portfolio">Portfolio</a>
+                            </li>
+                            <li class="nav__item">
+                                <a class="nav__link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                        <div class="toggle">
+                            <button id="theme__toggle">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                    class="moon bi bi-moon" viewBox="0 0 16 16">
+                                    <path
+                                        d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z" />
+                                </svg>
+
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="sun bi bi-brightness-high" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
+                                </svg>
+                            </button>
+
+                            <button id="nav__toggle">
+                                <svg id="toggle__open" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                    fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                                </svg>
+
+                                <svg id="toggle__close" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                    fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                                    <path
+                                        d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- **************** HEADER CONTENT END **************** -->
+
+    <!-- **************** MAIN CONTENT START **************** -->
+    <main>
+
+        <!-- =======================
+        Hero START -->
+        <section id="hero">
+            <div class="container">
+                <div class="hero">
+                    <div class="hero__left">
+                        <h1 class="hero__title">I’m Abu Bakar
+                            <span>Front-end</span> <br>Developer
+                        </h1>
+                        <p class="hero__description">Hi! My name is Abu Bakar I'm from Bangladesh. I'm a front-end
+                            developer. I love to work with React JS. over the last
+                            year, I gather knowledge in various parts of web development by myself. I always try to
+                            improve my skills and knowledge
+                            base to fit with the latest technologies. My goal is to become a full-stack web developer
+                            who can make beautiful UI and
+                            also can handle the back-end smoothly.</p>
+                        <div class="social__icon">
+                            <a class="social__link" target="_blank" href="https://www.facebook.com/md.bakkar.129357">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512">
+                                    <path
+                                        d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
+                                </svg>
+                            </a>
+                            <a class="social__link" target="_blank"
+                                href="https://www.linkedin.com/in/muhammad-abu-bakar-a283b4241/">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                                    <path
+                                        d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                                </svg>
+                            </a>
+                            <a class="social__link" target="_blank" href="https://github.com/abubakarsiddique10">
+                                <svg height="1em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                                    <path
+                                        d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                                </svg>
+                            </a>
+
+                            <button class="social__link email">
+                                <svg height="1em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path
+                                        d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />
+                                </svg>
+                                <span>copied</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="hero__right">
+                        <img src="./assets/images/banner/abu-bakar.png" alt="hero-img" class="hero__img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- =======================
+        Hero END -->
+
+
+        <!-- =======================
+        Service START -->
+        <section id="services" class="services">
+            <div class="container">
+                <header class="services__header">
+                    <h2 class="header__title">my services</h2>
+                    <p class="header__description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                        amet sint. Velit officia
+                        consequat duis enim velit
+                        mollit. lorem ipsum</p>
+                </header>
+                <div class="services__body">
+                    <div class="services__card">
+                        <svg class="card__img" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512">
+                            <path
+                                d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6zm80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3L562.7 256l-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3z" />
+                        </svg>
+                        <div class="card__body">
+                            <h4 class="card__title">web development</h4>
+                            <p class="card__text">Are you looking for a Frontend Web Developer to build a responsive &
+                                user-friendly website or looking for
+                                someone to redesign your existing website. please
+                                contact me.</p>
+                        </div>
+                    </div>
+                    <div class="services__card">
+                        <svg class="card__img" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512">
+                            <path
+                                d="M14 95.7924C14 42.8877 56.8878 0 109.793 0H274.161C327.066 0 369.954 42.8877 369.954 95.7924C369.954 129.292 352.758 158.776 326.711 175.897C352.758 193.019 369.954 222.502 369.954 256.002C369.954 308.907 327.066 351.795 274.161 351.795H272.081C247.279 351.795 224.678 342.369 207.666 326.904V415.167C207.666 468.777 163.657 512 110.309 512C57.5361 512 14 469.243 14 416.207C14 382.709 31.1945 353.227 57.2392 336.105C31.1945 318.983 14 289.5 14 256.002C14 222.502 31.196 193.019 57.2425 175.897C31.196 158.776 14 129.292 14 95.7924ZM176.288 191.587H109.793C74.2172 191.587 45.3778 220.427 45.3778 256.002C45.3778 291.44 73.9948 320.194 109.381 320.416C109.518 320.415 109.655 320.415 109.793 320.415H176.288V191.587ZM207.666 256.002C207.666 291.577 236.505 320.417 272.081 320.417H274.161C309.737 320.417 338.576 291.577 338.576 256.002C338.576 220.427 309.737 191.587 274.161 191.587H272.081C236.505 191.587 207.666 220.427 207.666 256.002ZM109.793 351.795C109.655 351.795 109.518 351.794 109.381 351.794C73.9948 352.015 45.3778 380.769 45.3778 416.207C45.3778 451.652 74.6025 480.622 110.309 480.622C146.591 480.622 176.288 451.186 176.288 415.167V351.795H109.793ZM109.793 31.3778C74.2172 31.3778 45.3778 60.2173 45.3778 95.7924C45.3778 131.368 74.2172 160.207 109.793 160.207H176.288V31.3778H109.793ZM207.666 160.207H274.161C309.737 160.207 338.576 131.368 338.576 95.7924C338.576 60.2173 309.737 31.3778 274.161 31.3778H207.666V160.207Z" />
+                        </svg>
+                        <div class="card__body">
+                            <h4 class="card__title">Any conversion from Figma</h4>
+                            <p class="card__text">Are you in need of a front-end developer who will be able to convert
+                                your web mockups to a clean, pixel-perfect, and
+                                fully responsive website? If your answer is yes then congrats! please contact with
+                                me.</p>
+                        </div>
+                    </div>
+                    <div class="services__card">
+                        <svg class="card__img" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512">
+                            <path
+                                d="M192 128c0-17.7 14.3-32 32-32s32 14.3 32 32v7.8c0 27.7-2.4 55.3-7.1 82.5l-84.4 25.3c-40.6 12.2-68.4 49.6-68.4 92v71.9c0 40 32.5 72.5 72.5 72.5c26 0 50-13.9 62.9-36.5l13.9-24.3c26.8-47 46.5-97.7 58.4-150.5l94.4-28.3-12.5 37.5c-3.3 9.8-1.6 20.5 4.4 28.8s15.7 13.3 26 13.3H544c17.7 0 32-14.3 32-32s-14.3-32-32-32H460.4l18-53.9c3.8-11.3 .9-23.8-7.4-32.4s-20.7-11.8-32.2-8.4L316.4 198.1c2.4-20.7 3.6-41.4 3.6-62.3V128c0-53-43-96-96-96s-96 43-96 96v32c0 17.7 14.3 32 32 32s32-14.3 32-32V128zm-9.2 177l49-14.7c-10.4 33.8-24.5 66.4-42.1 97.2l-13.9 24.3c-1.5 2.6-4.3 4.3-7.4 4.3c-4.7 0-8.5-3.8-8.5-8.5V335.6c0-14.1 9.3-26.6 22.8-30.7zM24 368c-13.3 0-24 10.7-24 24s10.7 24 24 24H64.3c-.2-2.8-.3-5.6-.3-8.5V368H24zm592 48c13.3 0 24-10.7 24-24s-10.7-24-24-24H305.9c-6.7 16.3-14.2 32.3-22.3 48H616z" />
+                        </svg>
+                        <div class="card__body">
+                            <h4 class="card__title">Email signature</h4>
+                            <p class="card__text">Having a professional signature design on your emails is much needed
+                                to show your professionalism. I will create a
+                                unique, professional & clickable HTML email signature for you. contact with
+                                me.</p>
+                        </div>
+                    </div>
+
+                    <!-- <div class="services__card">
+                        <svg class="card__img" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512">
+                            <path
+                                d="M192 64C86 64 0 150 0 256S86 448 192 448H448c106 0 192-86 192-192s-86-192-192-192H192zM496 168a40 40 0 1 1 0 80 40 40 0 1 1 0-80zM392 304a40 40 0 1 1 80 0 40 40 0 1 1 -80 0zM168 200c0-13.3 10.7-24 24-24s24 10.7 24 24v32h32c13.3 0 24 10.7 24 24s-10.7 24-24 24H216v32c0 13.3-10.7 24-24 24s-24-10.7-24-24V280H136c-13.3 0-24-10.7-24-24s10.7-24 24-24h32V200z" />
+                        </svg>
+                        <div class="card__body">
+                            <h4 class="card__title">game design</h4>
+                            <p class="card__text">Character Design, Props & Objects</p>
+                        </div>
+                    </div>
+                    <div class="services__card">
+                        <svg class="card__img" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512">
+                            <path
+                                d="M213.1 64.8L202.7 96H128c-35.3 0-64 28.7-64 64V416c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V160c0-35.3-28.7-64-64-64H437.3L426.9 64.8C420.4 45.2 402.1 32 381.4 32H258.6c-20.7 0-39 13.2-45.5 32.8zM448 256c0 8.8-7.2 16-16 16H355.3c-6.2 0-11.3-5.1-11.3-11.3c0-3 1.2-5.9 3.3-8L371 229c-13.6-13.4-31.9-21-51-21c-19.2 0-37.7 7.6-51.3 21.3L249 249c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l19.7-19.7C257.4 172.7 288 160 320 160c31.8 0 62.4 12.6 85 35l23.7-23.7c2.1-2.1 5-3.3 8-3.3c6.2 0 11.3 5.1 11.3 11.3V256zM192 320c0-8.8 7.2-16 16-16h76.7c6.2 0 11.3 5.1 11.3 11.3c0 3-1.2 5.9-3.3 8L269 347c13.6 13.4 31.9 21 51 21c19.2 0 37.7-7.6 51.3-21.3L391 327c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-19.7 19.7C382.6 403.3 352 416 320 416c-31.8 0-62.4-12.6-85-35l-23.7 23.7c-2.1 2.1-5 3.3-8 3.3c-6.2 0-11.3-5.1-11.3-11.3V320z" />
+                        </svg>
+                        <div class="card__body">
+                            <h4 class="card__title">photography</h4>
+                            <p class="card__text">portrait, product photography</p>
+                        </div>
+                    </div>
+                    <div class="services__card">
+                        <svg class="card__img" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512">
+                            <path
+                                d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM229.5 173.3l72 144c5.9 11.9 1.1 26.3-10.7 32.2s-26.3 1.1-32.2-10.7L253.2 328H162.8l-5.4 10.7c-5.9 11.9-20.3 16.7-32.2 10.7s-16.7-20.3-10.7-32.2l72-144c4.1-8.1 12.4-13.3 21.5-13.3s17.4 5.1 21.5 13.3zM208 237.7L186.8 280h42.3L208 237.7zM392 256a24 24 0 1 0 0 48 24 24 0 1 0 0-48zm24-43.9V184c0-13.3 10.7-24 24-24s24 10.7 24 24v96 48c0 13.3-10.7 24-24 24c-6.6 0-12.6-2.7-17-7c-9.4 4.5-19.9 7-31 7c-39.8 0-72-32.2-72-72s32.2-72 72-72c8.4 0 16.5 1.4 24 4.1z" />
+                        </svg>
+                        <div class="card__body">
+                            <h4 class="card__title">advertising</h4>
+                            <p class="card__text">Lorem ipsum dolor sit amet</p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+        <!-- =======================
+        Service END -->
+
+
+        <!-- =======================
+        Testimonial START -->
+        <!--  <section id="testimonial" class="testimonial">
+            <div class="container">
+                <header class="testimonial__header">
+                    <h2 class="header__title">testimonial</h2>
+                    <p class="header__description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                        amet sint. Velit officia
+                        consequat duis enim velit
+                        mollit. lorem ipsum</p>
+                </header>
+                <div class="testimonial__body">
+                    <div class="testimonial__card">
+                        <div class="card__header">
+                            <div class="card__rating">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512">
+                                    <path
+                                        d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512">
+                                    <path
+                                        d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512">
+                                    <path
+                                        d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512">
+                                    <path
+                                        d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512">
+                                    <path
+                                        d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
+                                </svg>
+                            </div>
+                            <h4 class="card__title">Great Quality!</h4>
+                        </div>
+                        <div class="card__content">
+                            <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla
+                                diam in ac dictum a urna viverra morbi. Morbi donec
+                                amet....</p>
+                        </div>
+                        <div class="card__footer">
+                            <img draggable="false" class="client__img" src="./assets/images/client-img/client.png"
+                                alt="client-img">
+                            <div>
+                                <h4 class="client__name">James Gouse</h4>
+                                <span class="client__title">Graphic Designer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial__card">
+                        <div class="card__header">
+                            <div class="card__rating">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512">
+                                    <path
+                                        d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512">
+                                    <path
+                                        d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512">
+                                    <path
+                                        d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512">
+                                    <path
+                                        d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512">
+                                    <path
+                                        d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
+                                </svg>
+                            </div>
+                            <h4 class="card__title">Amazing work!</h4>
+                        </div>
+                        <div class="card__content">
+                            <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla
+                                diam in ac dictum a urna viverra morbi. Morbi donec
+                                amet....</p>
+                        </div>
+                        <div class="card__footer">
+                            <img draggable="false" class="client__img" src="./assets/images/client-img/client.png"
+                                alt="client-img">
+                            <div>
+                                <h4 class="client__name">Tiana Philips</h4>
+                                <span class="client__title">Photographer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial__card">
+                        <div class="card__header">
+                            <div class="card__rating">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512">
+                                    <path
+                                        d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512">
+                                    <path
+                                        d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512">
+                                    <path
+                                        d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512">
+                                    <path
+                                        d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512">
+                                    <path
+                                        d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
+                                </svg>
+                            </div>
+                            <h4 class="card__title">Great Quality!</h4>
+                        </div>
+                        <div class="card__content">
+                            <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla
+                                diam in ac dictum a urna viverra morbi. Morbi donec
+                                amet....</p>
+                        </div>
+                        <div class="card__footer">
+                            <img draggable="false" class="client__img" src="./assets/images/client-img/client.png"
+                                alt="client-img">
+                            <div>
+                                <h4 class="client__name">Talan Westervelt</h4>
+                                <span class="client__title">Business man</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial__card">
+                        <div class="card__header">
+                            <div class="card__rating">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512">
+                                    <path
+                                        d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512">
+                                    <path
+                                        d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512">
+                                    <path
+                                        d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512">
+                                    <path
+                                        d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
+                                </svg>
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512">
+                                    <path
+                                        d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z" />
+                                </svg>
+                            </div>
+                            <h4 class="card__title">Great Quality!</h4>
+                        </div>
+                        <div class="card__content">
+                            <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla
+                                diam in ac dictum a urna viverra morbi. Morbi donec
+                                amet....</p>
+                        </div>
+                        <div class="card__footer">
+                            <img draggable="false" class="client__img" src="./assets/images/client-img/client.png"
+                                alt="client-img">
+                            <div>
+                                <h4 class="client__name">Talan Westervelt</h4>
+                                <span class="client__title">Business man</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- =======================
+        Testimonial END -->
+
+
+        <!-- =======================
+        Portfolio START -->
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+                <header class="portfolio__header">
+                    <h2 class="header__title">Portfolio</h2>
+                    <p class="header__description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                        amet sint. Velit officia
+                        consequat duis enim velit
+                        mollit. lorem ipsum</p>
+                </header>
+
+                <div class="portfolio__wrappper">
+                    <!-- <img id="left" src="./assets//images/icons/arrow-right-short.svg" alt=""> -->
+                    <ul class="portfolio__menu">
+                        <li id="all-categories" class="menu__item active">All categories</li>
+                        <li id="portfolio" class="menu__item">Portfolio</li>
+                        <!-- <li id="e-commerce" class="menu__item">E-commerce</li> -->
+                        <li id="appointment-booking" class="menu__item">Appointment Booking</li>
+                        <li id="education" class="menu__item">Education</li>
+                    </ul>
+                    <!-- <img id="right" src="./assets/images/icons/arrow-left-short.svg"> -->
+                </div>
+                <div class="portfolio__content">
+                    <div id="portfolio" class="portfolio__card">
+                        <div class="card__img">
+                            <img src="./assets/images/portfolio-img/portfolio2.png" alt="">
+                        </div>
+                        <div class="card__body">
+                            <h3 class="card__title">Personal Portfolio/CV/Resume HTML Template</h3>
+                            <p class="card__content">
+                                <span>Technology: </span>
+                                HTML, CSS, JavaScript
+                            </p>
+                            <ul>
+                                <li>One Page Portfolio</li>
+                                <li>Creative Design</li>
+                                <li>Light and Dark Versions</li>
+                                <li>Fully Responsive layout</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="appointment-booking" class="portfolio__card">
+                        <div class="card__img">
+                            <img src="./assets/images/portfolio-img/2.png" alt="">
+                        </div>
+                        <div class="card__body">
+                            <h3 class="card__title">doctor appointment booking template</h3>
+                            <p class="card__content">
+                                <span>Technology: </span>
+                                HTML, Tailwind, React, Firebase, Stripe
+                            </p>
+                            <ul>
+                                <li>easy register and login</li>
+                                <li>admin & patient dashboard</li>
+                                <li>Fully Responsive layout</li>
+                                <li>doctor sechedule</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="education" class="portfolio__card">
+                        <div class="card__img">
+                            <img src="./assets/images/portfolio-img/education.png" alt="">
+                        </div>
+                        <div class="card__body">
+                            <h3 class="card__title">Online Course and Education React Template</h3>
+                            <p class="card__content">
+                                <span>Technology: </span>
+                                HTML, Tailwind, React, Firebase
+                            </p>
+                            <ul>
+                                <li>easy register and login</li>
+                                <li>online course apply system</li>
+                                <li>Fully Responsive layout</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <!--<div class="portfolio__content">
+                    <div id="ui-design" class="portfolio__item ui-design">
+                        <img class="portfolio__img" src="./assets/images/portfolio-img/ui1.webp" alt="portfolio-img">
+                    </div>
+                    <div id="web-templates" class="portfolio__item web-templates">
+                        <img class="portfolio__img" src="./assets/images/portfolio-img/web1.webp" alt="portfolio-img">
+                    </div>
+                    <div id="logo" class="portfolio__item logo">
+                        <img class="portfolio__img" src="./assets/images/portfolio-img/logo1.webp" alt="portfolio-img">
+                    </div>
+                    <div id="app-development" class="portfolio__item app-development">
+                        <img class="portfolio__img" src="./assets/images/portfolio-img/app1.webp" alt="portfolio-img">
+                    </div>
+                    <div id="logo" class="portfolio__item logo">
+                        <img class="portfolio__img" src="./assets/images/portfolio-img/logo2.webp" alt="portfolio-img">
+                    </div>
+                    <div id="app-development" class="portfolio__item app-development">
+                        <img class="portfolio__img" src="./assets/images/portfolio-img/app2.webp" alt="portfolio-img">
+                    </div>
+                </div> -->
+            </div>
+        </section>
+        <!-- =======================
+        Portfolio END -->
+
+
+        <!-- =======================
+        Price START -->
+        <!-- <section id="price" class="price">
+            <div class="container">
+                <header class="price__header">
+                    <h2 class="header__title">price</h2>
+                    <p class="header__description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+                        sint. Velit officia consequat duis enim velit
+                        mollit. lorem ipsum</p>
+                </header>
+                <div class="price__body">
+                    <div class="price__card">
+                        <div class="card__header">
+                            <h3 class="card__title">silver</h3>
+                            <h2 class="card__price">$0.00</h2>
+                            <p class="card__text">For most businesses that want to
+                                optimize web queries</p>
+                        </div>
+                        <div class="card__body">
+                            <div class="card__service">
+                                <img class="service__icon" src="./assets/images/icons/Check.png" alt="">
+                                <span class="service__text">UI Design</span>
+                            </div>
+                            <div class="card__service">
+                                <img class="service__icon" src="./assets/images/icons/Check.png" alt="">
+                                <span class="service__text">web development</span>
+                            </div>
+                            <div class="card__service">
+                                <img class="service__icon" src="./assets/images/icons/Close.png" alt="">
+                                <span class="service__text service__text--cross">logo design</span>
+                            </div>
+                            <div class="card__service">
+                                <img class="service__icon" src="./assets/images/icons/Close.png" alt="">
+                                <span class="service__text service__text--cross">seo optimization</span>
+                            </div>
+                            <div class="card__service">
+                                <img class="service__icon" src="./assets/images/icons/Close.png" alt="">
+                                <span class="service__text service__text--cross">wordPress integration</span>
+                            </div>
+                            <div class="card__service">
+                                <img class="service__icon" src="./assets/images/icons/Close.png" alt="">
+                                <span class="service__text service__text--cross">5 Websites</span>
+                            </div>
+                            <div class="card__service">
+                                <img class="service__icon" src="./assets/images/icons/Close.png" alt="">
+                                <span class="service__text service__text--cross">unlimited user</span>
+                            </div>
+                            <div class="card__service">
+                                <img class="service__icon" src="./assets/images/icons/Close.png" alt="">
+                                <span class="service__text service__text--cross">20 gB bandwith</span>
+                            </div>
+                        </div>
+                        <button class="card__btn">order now</button>
+                    </div>
+                    <div class="price__card">
+                        <div class="card__header">
+                            <h3 class="card__title">gold</h3>
+                            <h2 class="card__price">$50.00</h2>
+                            <p class="card__text">For most businesses that want to
+                                optimize web queries</p>
+                        </div>
+                        <div class="card__body">
+                            <div class="card__service">
+                                <img class="service__icon" src="./assets/images/icons/Check.png" alt="">
+                                <span class="service__text">UI Design</span>
+                            </div>
+                            <div class="card__service">
+                                <img class="service__icon" src="./assets/images/icons/Check.png" alt="">
+                                <span class="service__text">web development</span>
+                            </div>
+                            <div class="card__service">
+                                <img class="service__icon" src="./assets/images/icons/Check.png" alt="">
+                                <span class="service__text">logo design</span>
+                            </div>
+                            <div class="card__service">
+                                <img class="service__icon" src="./assets/images/icons/Check.png" alt="">
+                                <span class="service__text">seo optimization</span>
+                            </div>
+                            <div class="card__service">
+                                <img class="service__icon" src="./assets/images/icons/Close.png" alt="">
+                                <span class="service__text service__text--cross">wordPress integration</span>
+                            </div>
+                            <div class="card__service">
+                                <img class="service__icon" src="./assets/images/icons/Close.png" alt="">
+                                <span class="service__text service__text--cross">5 Websites</span>
+                            </div>
+                            <div class="card__service">
+                                <img class="service__icon" src="./assets/images/icons/Close.png" alt="">
+                                <span class="service__text service__text--cross">unlimited user</span>
+                            </div>
+                            <div class="card__service">
+                                <img class="service__icon" src="./assets/images/icons/Close.png" alt="">
+                                <span class="service__text service__text--cross">20 gB bandwith</span>
+                            </div>
+                        </div>
+                        <button class="card__btn">order now</button>
+                        <p class="card__popular">most popular</p>
+                    </div>
+                    <div class="price__card">
+                        <div class="card__header">
+                            <h3 class="card__title">dimond</h3>
+                            <h2 class="card__price">$80.00</h2>
+                            <p class="card__text">For most businesses that want to
+                                optimize web queries</p>
+                        </div>
+                        <div class="card__body">
+                            <div class="card__service">
+                                <img class="service__icon" src="./assets/images/icons/Check.png" alt="">
+                                <span class="service__text">UI Design</span>
+                            </div>
+                            <div class="card__service">
+                                <img class="service__icon" src="./assets/images/icons/Check.png" alt="">
+                                <span class="service__text">web development</span>
+                            </div>
+                            <div class="card__service">
+                                <img class="service__icon" src="./assets/images/icons/Check.png" alt="">
+                                <span class="service__text">logo design</span>
+                            </div>
+                            <div class="card__service">
+                                <img class="service__icon" src="./assets/images/icons/Check.png" alt="">
+                                <span class="service__text">seo optimization</span>
+                            </div>
+                            <div class="card__service">
+                                <img class="service__icon" src="./assets/images/icons/Check.png" alt="">
+                                <span class="service__text">wordPress integration</span>
+                            </div>
+                            <div class="card__service">
+                                <img class="service__icon" src="./assets/images/icons/Check.png" alt="">
+                                <span class="service__text">5 Websites</span>
+                            </div>
+                            <div class="card__service">
+                                <img class="service__icon" src="./assets/images/icons/Check.png" alt="">
+                                <span class="service__text ">unlimited user</span>
+                            </div>
+                            <div class="card__service">
+                                <img class="service__icon" src="./assets/images/icons/Check.png" alt="">
+                                <span class="service__text">20 gB bandwith</span>
+                            </div>
+                        </div>
+                        <button class="card__btn">order now</button>
+                    </div>
+                </div>
+        </section> -->
+        <!-- =======================
+        Price END -->
+
+
+        <!-- =======================
+        Blog START -->
+        <!--         <section id="blog" class="blog">
+            <div class="container">
+                <header class="blog__header">
+                    <h2 class="header__title">blog</h2>
+                    <p class="header__description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                        amet sint. Velit officia
+                        consequat duis enim velit
+                        mollit. lorem ipsum</p>
+                </header>
+
+                <div class="blog__body">
+                    <div class="blog__card">
+                        <img class="card__img" src="./assets/images/blog/design.webp" alt="blog-img">
+                        <div class="card__body">
+                            <h4 class="card__title">How to make Flyer Design</h4>
+                            <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla
+                                diam in ac dictum a urna</p>
+                            <a class="card__action" href="#">
+                                <span>learn more</span>
+                                <img src="./assets/images/icons/Frame.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="blog__card">
+                        <img class="card__img" src="./assets/images/blog/design.webp" alt="blog-img">
+                        <div class="card__body">
+                            <h4 class="card__title">How to make Flyer Design</h4>
+                            <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla
+                                diam in ac dictum a urna</p>
+                            <a class="card__action" href="#">
+                                <span>learn more</span>
+                                <img src="./assets/images/icons/Frame.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="blog__card">
+                        <img class="card__img" src="./assets/images/blog/design.webp" alt="blog-img">
+                        <div class="card__body">
+                            <h4 class="card__title">How to make Flyer Design</h4>
+                            <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla
+                                diam in ac dictum a urna</p>
+                            <a class="card__action" href="#">
+                                <span>learn more</span>
+                                <img src="./assets/images/icons/Frame.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- =======================
+        Blog END -->
+
+
+        <!-- =======================
+        Contact START -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <header class="contact__header">
+                    <h2 class="header__title">contact</h2>
+                    <p class="header__description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                        amet sint. Velit officia
+                        consequat duis enim velit
+                        mollit. lorem ipsum</p>
+                </header>
+
+                <div class="contact__body">
+                    <div class="contact__left">
+                        <div class="contact__left__title">
+                            <h3 class="contact__subtitle">Get in Touch</h3>
+                            <p class="contact__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Dignissimos harum corporis fuga
+                                corrupti. Doloribus quis
+                                soluta nesciunt veritatis vitae nobis</p>
+                        </div>
+                        <div class="contact__info">
+                            <div class="contact__item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor"
+                                    class="bi bi-person-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
+                                </svg>
+                                <div>
+                                    <h6 class="info__title">name</h6>
+                                    <span class="info__name">Muhammad Abu Bakar</span>
+                                </div>
+                            </div>
+                            <div class="contact__item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                                    class="bi bi-envelope-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
+                                </svg>
+                                <div>
+                                    <h6 class="info__title">email</h6>
+                                    <span class="info__name">abubakarsiddique7912@gmail.com</span>
+                                </div>
+                            </div>
+                            <div class="contact__item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                                    class="bi bi-telephone-fill" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                                </svg>
+                                <div>
+                                    <h6 class="info__title">Phone</h6>
+                                    <span class="info__name">+880 1857-927912</span>
+                                </div>
+                            </div>
+                            <div class="contact__item">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                                    class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+                                </svg>
+                                <div>
+                                    <h6 class="info__title">location</h6>
+                                    <span class="info__name">Fatickchari, Chattogram, Bangladesh</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact__social">
+                            <h3 class="contact__subtitle">find with me</h3>
+                            <div class="social__icon">
+                                <a class="social__link" target="_blank"
+                                    href="https://www.facebook.com/md.bakkar.129357">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512">
+                                        <path
+                                            d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
+                                    </svg>
+                                </a>
+                                <a class="social__link" target="_blank"
+                                    href="https://www.linkedin.com/in/muhammad-abu-bakar-a283b4241/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                                        <path
+                                            d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                                    </svg>
+                                </a>
+                                <a class="social__link" target="_blank" href="https://github.com/abubakarsiddique10">
+                                    <svg height="1em" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
+                                        <path
+                                            d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact__right">
+                        <div class="contact__right__title">
+                            <h3 class="contact__subtitle">Message me</h3>
+                        </div>
+                        <form class="contact__form">
+                            <input class="contact__input" type="text" placeholder="name">
+
+                            <input class="contact__input" type="email" placeholder="email">
+
+                            <input class="contact__input" type="text" placeholder="subject">
+
+                            <textarea class="contact__textarea contact__input" rows="5"
+                                placeholder="Message..."></textarea>
+
+                            <button class="contact__btn">send message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- =======================
+        Contact END -->
+
+    </main>
+    <!-- **************** MAIN CONTENT END **************** -->
+
+
+    <!-- **************** FOOTER CONTENT START **************** -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__header">
+                    <img class="footer__img" src="./assets/images/banner/abu-bakar.png" alt="">
+                    <h3 class="footer__title">Jhon Doe</h3>
+                </div>
+                <p class="footer__description">Copyright © 2022 All rights reserved Abu Bakar</p>
+            </div>
+        </div>
+    </footer>
+    <!-- **************** FOOTER CONTENT END **************** -->
+
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
