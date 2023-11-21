@@ -371,7 +371,7 @@ footer,section:not(#hero) {
     border-radius: 4px;
     background: rgb(248 250 252);
     border: 1px solid rgba(71, 85, 105, .1);
-    margin-bottom: 64px;
+    margin-bottom: 40px;
 }
  .portfolio__wrappper img {
     width: 25px;
@@ -410,6 +410,7 @@ footer,section:not(#hero) {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 24px
+	grid-auto-rows: 1fr;
 }
 .portfolio__card {
    padding: 12px;
@@ -737,7 +738,8 @@ footer,section:not(#hero) {
         position: relative;
         gap: 10px;
         max-width: 550px;
-        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
     }
     .portfolio__menu {
         max-width: 100%;
