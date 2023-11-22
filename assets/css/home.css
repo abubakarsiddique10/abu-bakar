@@ -28,7 +28,8 @@ footer,section:not(#hero) {
 /* common style end */
 
 
-/* nav style start */
+
+/************** NAV STYLE START **************/
 #header {
     background: var(--color-white-100, #FFFFFF);
     position: fixed;
@@ -95,10 +96,13 @@ footer,section:not(#hero) {
 .sun {
     display: none;
 }
-/* nav style end */
+/************** NAV STYLE END **************/
 
 
-/* hero style start */
+
+
+
+/************** HERO STYLE START **************/
 #hero {
    border-bottom: 1px solid #8080803b;
    background: linear-gradient(180deg,#f8fafc,rgba(242,202,252,.11) 34.69%,rgba(250,198,252,.11) 44.06%,rgba(175,183,255,.11) 54.48%,rgba(142,220,200,.07) 64.9%,#f8fafc 97.95%);
@@ -159,10 +163,10 @@ footer,section:not(#hero) {
     border: 1.5px solid rgba(71,85,105,.1);
     border-radius: 6px;
 }
-/* hero style end */
+/************** HERO STYLE END **************/
 
 
-/* services style start */
+/************** SERVICES STYLE START **************/
 .services__body {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -176,10 +180,15 @@ footer,section:not(#hero) {
     border: 1px solid rgba(71,85,105,.1);
     border-radius: 4px;
 }
-.services__card .card__img {
+/* .services__card .card__img {
     width: 68px;
     height: 68px;
     fill: #FFB400;
+    margin-bottom: 25px;
+} */
+.services__card i {
+    font-size: 68px;
+    color: #FFB400;
     margin-bottom: 25px;
 }
 .services__card .card__title {
@@ -193,11 +202,11 @@ footer,section:not(#hero) {
     font-size: 1rem;
     line-height: 24px;
 }
-/* services style end */
+/************** SERVICES STYLE END **************/
 
 
 
-/* testimonial style start */
+/************** TESTIMONIAL STYLE START **************/
 .testimonial__body {
     max-width: 1168px;
     border-radius: 6px;
@@ -267,10 +276,11 @@ footer,section:not(#hero) {
     line-height: 24px;
     text-transform: capitalize;
 }
-/* testimonial style end */
+/************** TESTIMONIAL STYLE END **************/
 
 
-/* price style start */
+
+/************** PRICE STYLE START **************/
 .price__body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -361,8 +371,10 @@ footer,section:not(#hero) {
 .card__service .service__text--cross {
     color: var(--color-gray-100, #767676)
 }
+/************** PRICE STYLE END **************/
 
-/* price style end */
+
+/************** PORTFOLIO STYLE START **************/
 .portfolio__wrappper {
     display: flex;
     justify-content: center;
@@ -401,7 +413,6 @@ footer,section:not(#hero) {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 24px;
-	grid-auto-rows: 1fr;
 }
 .portfolio__card {
    padding: 12px;
@@ -444,10 +455,11 @@ footer,section:not(#hero) {
 .menu__item.active {
     color: var(--color-yellow-500, #FFB400);
 }
-/* portfolio style end */
+/************** PORTFOLIO STYLE END **************/
 
 
-/* blog style start */
+
+/************** BLOG STYLE START **************/
 .blog__body {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -491,11 +503,10 @@ footer,section:not(#hero) {
     line-height: 22px;
     text-transform: capitalize;
 }
-/* blog style end */
+/************** BLOG STYLE END **************/
 
 
-
-/* contact style start */
+/************** CONTACT STYLE START **************/
 .contact__body {
     display: flex;
     gap: 20px;
@@ -535,6 +546,9 @@ footer,section:not(#hero) {
     display: flex;
     align-items: center;
     gap: 30px
+}
+.contact__item i {
+    font-size: 18px;
 }
 .info__title {
     font-size: 1rem;
@@ -596,6 +610,13 @@ footer,section:not(#hero) {
     border-radius: 6px;
     border: 1px solid rgba(71,85,105,.1);
 }
+.social__link i {
+    color: black;
+}
+.social__link:hover i{
+    color: #FFB400;
+    transition: all 0.3s ease;
+}
 .social__link.email span {
     position: absolute;
     left: 0;
@@ -603,15 +624,16 @@ footer,section:not(#hero) {
     font-size: 14px;
     display: none;
 }
+/************** CONTACT STYLE END **************/
 
-.social__link:hover svg path {
+/* .social__link:hover svg path {
     fill: var(--color-yellow-500, #FFB400);
     transition: all 0.3s ease;
-}
-/* contact style end */
+} */
 
 
-/* footer style start */
+
+/************** FOOTER STYLE START **************/
 .footer__header {
     text-align: center;
     margin-bottom: 10px;
@@ -637,7 +659,7 @@ footer,section:not(#hero) {
     text-transform: capitalize;
     text-align: center;
 }
-/* footer style end */
+/************** FOOTER STYLE END **************/
 
 #toggle {
     height: 20px;
@@ -646,7 +668,8 @@ footer,section:not(#hero) {
 }
 
 
-/* media query start */
+
+/************** MEDIA QUERY START **************/
 @media (max-width: 992px) {
     #nav__toggle {
         display: inline-block;
@@ -782,7 +805,7 @@ footer,section:not(#hero) {
         grid-template-columns: repeat(1, minmax(0, 1fr));
     }
 }
-/* media query end */
+/************** MEDIA QUERY END **************/
 
 
 .nav__show {

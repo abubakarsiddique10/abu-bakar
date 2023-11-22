@@ -14,7 +14,7 @@ const headerTitle = document.querySelectorAll('.header__title')
 const isTheme = localStorage.getItem('theme');
 const hero = document.getElementById('hero');
 const servicesCard = document.querySelectorAll('.services__card');
-const servicesCardSVG = document.querySelectorAll('.services__card svg');
+const servicesCardIcons = document.querySelectorAll('.services__card i');
 const testimonialCard = document.querySelectorAll('.testimonial__card');
 const testimonialCardSVG = document.querySelectorAll('.testimonial__card svg');
 const priceCard = document.querySelectorAll('.price__card');
@@ -26,6 +26,7 @@ const messageInput = document.querySelectorAll('.contact__form input, textarea')
 const portfolioWrappper = document.querySelector('.portfolio__wrappper')
 
 const socialLink = document.querySelectorAll('.social__link');
+const socialIcons = document.querySelectorAll('.social__link i');
 const portfolioCard = document.querySelectorAll('.portfolio__card')
 
 
@@ -81,7 +82,8 @@ if (isTheme == 'dark') {
     navLogo.style.color = "#A6ADBA";
     navLink.forEach((item) => item.style.color = "#A6ADBA");
     svg.forEach((item) => item.style.fill = "#A6ADBA");
-    servicesCardSVG.forEach((svg) => svg.style.fill = "#F0F0F6")
+    socialIcons.forEach((icon) => icon.style.color = "#A6ADBA");
+    servicesCardIcons.forEach((icon) => icon.style.color = "#F0F0F6")
 
     messageInput.forEach((input) => {
         input.style.background = "#1D232A";
@@ -113,7 +115,8 @@ themeToggle.addEventListener('click', () => {
         navLogo.style.color = "#A6ADBA";
         navLink.forEach((item) => item.style.color = "#A6ADBA");
         svg.forEach((item) => item.style.fill = "#A6ADBA");
-        servicesCardSVG.forEach((svg) => svg.style.fill = "#F0F0F6")
+        socialIcons.forEach((icon) => icon.style.color = "#A6ADBA");
+        servicesCardIcons.forEach((icon) => icon.style.color = "#F0F0F6")
         messageInput.forEach((input) => {
             input.style.background = "#1D232A";
             input.style.color = "#FFFFFF";
@@ -139,7 +142,8 @@ themeToggle.addEventListener('click', () => {
         navLogo.style.color = "#18191A";
         navLink.forEach((item) => item.style.color = "#18191A");
         svg.forEach((item) => item.style.fill = "#18191A");
-        servicesCardSVG.forEach((svg) => svg.style.fill = "#FFB400")
+        socialIcons.forEach((icon) => icon.style.color = "#18191A");
+        servicesCardIcons.forEach((icon) => icon.style.color = "#FFB400")
         messageInput.forEach((input) => {
             input.style.background = "#FFFFFF";
             input.style.color = "black";
